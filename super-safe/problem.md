@@ -10,11 +10,13 @@
 
 ## Description
 
-This website is super safe with the customized cookies! No one can steal the flag from the server!
+This website is super safe with the customized cookies! No one can steal the flag
+from the server!
 
 ## Details
 
-Browse {{link_as('/', 'here')}}, and find the flag! Download the web server code {{url_for("app.py", "here")}}.
+Browse {{link_as('/', 'here')}}, and find the flag! Download the web server code
+{{url_for("app.py", "here")}}.
 
 ## Hints
 
@@ -23,7 +25,11 @@ Browse {{link_as('/', 'here')}}, and find the flag! Download the web server code
 
 ## Solution Overview
 
-The solution involves manipulating the username, X-Forwarded-For, and user-agent string to create a session cookie that matches the admin user’s structure. By controlling these inputs, an attacker aims to simulate a valid admin session and gain unauthorized access. Because the cookies have quite fast expiration times, the attacker may only achieve this by automating the process.
+The solution involves manipulating the username, X-Forwarded-For, and user-agent
+string to create a session cookie that matches the admin user’s structure. By controlling
+these inputs, an attacker aims to simulate a valid admin session and gain unauthorized
+access. Because the cookies have quite fast expiration times, the attacker may only
+achieve this by automating the process.
 
 ## Challenge Options
 
